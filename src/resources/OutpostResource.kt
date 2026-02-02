@@ -1,3 +1,7 @@
+package resources
+
+import resources.ResourceManager
+
 data class OutpostResource(
     val id: Int,
     val name: String,

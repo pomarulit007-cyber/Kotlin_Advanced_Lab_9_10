@@ -1,3 +1,5 @@
+package example
+
 data class Item(
     val id: Int,
     val name: String,
@@ -44,7 +46,7 @@ class Rectangle(val width: Float, val height: Float) : Figure() {
 
 fun main() {
 
-    // val human = Human("Иван")
+    // val human = example.Human("Иван")
 
     val person = Person("Иван", 25)
     person.hello()
